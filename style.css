@@ -1,0 +1,44 @@
+body {
+    background: linear-gradient(to right, #000, #000, #18cbcb);
+    font-family: 'Poppins', sans-serif;
+}
+/* Footer */
+footer {
+    background: #212529;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Link */
+footer a {
+    text-decoration: none;
+    color: white;              /* tulisan putih */
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* Icon */
+footer a i {
+    margin-right: 6px;
+    font-size: 22px;
+}
+
+/* Warna icon saja */
+.instagram i {
+    color: #E1306C;   /* Pink */
+}
+
+.tiktok i {
+    color: #25F4EE;   /* Cyan */
+}
+
+.github i {
+    color: white;     /* Putih */
+}
+
+/* Hover */
+footer a:hover {
+    opacity: 0.8;
+}
